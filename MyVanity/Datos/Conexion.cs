@@ -8,7 +8,7 @@ namespace MyVanity.Datos
         private static string server = "localhost";
         private static string database = "bd_vanity";
         private static string userId = "root";
-        private static string pass = "";
+        private static string pass = "root";
         public static MySqlConnection conexion()
         {
             string cadenaConexion = "Database=" + database +"; Data Source=" + server + "; User Id=" + userId + "; Password=" + pass + "; Convert Zero Datetime=True";
